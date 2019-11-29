@@ -1,13 +1,16 @@
-package com.example.androidproject.ui.slideshow
+package com.example.androidproject.ui.ajout
 
+import android.util.Log
+import android.widget.ArrayAdapter
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SlideshowViewModel : ViewModel() {
+class AjoutViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is slideshow Fragment"
+        value = "This is medicament Ajout"
     }
     val text: LiveData<String> = _text
+
 }
